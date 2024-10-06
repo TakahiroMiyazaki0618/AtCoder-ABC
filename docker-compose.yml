@@ -1,0 +1,10 @@
+version: '3'
+services:
+  atcoder:
+    container_name: AtCoder-ABC
+    build: .
+    volumes:
+      - .:/AtCoder-ABC
+    ports:
+    - "8080:8080"
+    tty: true

@@ -1,0 +1,15 @@
+- docker-compose up --build -d
+- docker-compose exec -it atcoder /bin/bash
+- acc login
+- oj login https://atcoder.jp
+- acc config default-task-choice all
+- cd `acc config-dir`
+- mkdir cpp
+- touch main.cpp
+- touch template.json
+- acc config default-template cpp
+- acc new abc123
+- 実装
+- g++ main.cpp
+- oj t
+- acc s
