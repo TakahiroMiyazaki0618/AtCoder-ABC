@@ -18,8 +18,7 @@ RUN apt-get update && apt-get install -y \
     cmake \
     make \
     time \
-    vim \
-    git
+    vim
 
 # Node.jsのインストール（NodeSourceのリポジトリを利用）
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
@@ -32,7 +31,7 @@ RUN npm install -g atcoder-cli
 RUN pip3 install online-judge-tools
 
 # AtCoder Library（ACL）のインストール
-RUN git clone https://github.com/atcoder/ac-library.git
+# RUN git clone https://github.com/atcoder/ac-library.git
 # ACLのインクルードパスを設定
 ENV CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/AtCoder-ABC/ac-library
 
