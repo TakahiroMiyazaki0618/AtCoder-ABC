@@ -29,11 +29,11 @@ int main() {
 - vi template.json
 ```
 {
-    "task":{
-	"program": ["main.cpp"],
-	"submit": "main.cpp", 
-	"testdir": "test"	
-    }
+  "task":{
+    "program": ["main.cpp"],
+    "submit": "main.cpp",
+    "testdir": "test"
+  }
 }
 ```
 - acc config default-template cpp
@@ -43,9 +43,8 @@ int main() {
 - oj t
 - acc s
 
-[online-judge-tools](https://github.com/online-judge-tools/oj)
-[atcoder-cli](https://github.com/Tatamo/atcoder-cli?tab=readme-ov-file)
-[ac-library](https://github.com/atcoder/ac-library)
-[AtCoderのための環境作成](https://qiita.com/NaokiOsako/items/dcbc0a91e1bbca8ee45d)
-[Dockerを利用したローカルのAtCoder環境（C++）](https://zenn.dev/kinakomochi5250/articles/atcoder-cpp-docker)
-[]()
+[online-judge-tools](https://github.com/online-judge-tools/oj)  
+[atcoder-cli](https://github.com/Tatamo/atcoder-cli?tab=readme-ov-file)  
+[ac-library](https://github.com/atcoder/ac-library)  
+[AtCoderのための環境作成](https://qiita.com/NaokiOsako/items/dcbc0a91e1bbca8ee45d)  
+[Dockerを利用したローカルのAtCoder環境（C++）](https://zenn.dev/kinakomochi5250/articles/atcoder-cpp-docker)  
